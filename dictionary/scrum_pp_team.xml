@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Team" max_length="40" name="scrum_pp_team" sizeclass="0" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" hint="The team owner" label="Manager" max_length="32" name="manager" reference="sys_user" reference_floats="true" reference_qual="roles=scrum_admin^ORroles=scrum_user" type="reference"/>
+        <element attributes="encode_utf8=false" hint="The user who plays Scrum Master role for the team" label="Scrum master" max_length="32" name="scrum_master" reference="sys_user" reference_floats="true" reference_qual="roles=scrum_master" type="reference"/>
+        <element attributes="encode_utf8=false" label="Sprint Calendar" max_length="32" name="sprint_calendar" reference="cmn_schedule" reference_qual="type=sprint" type="reference"/>
+        <index name="index">
+            <element name="scrum_master"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3">
+            <element name="sprint_calendar"/>
+        </index>
+    </element>
+</database>

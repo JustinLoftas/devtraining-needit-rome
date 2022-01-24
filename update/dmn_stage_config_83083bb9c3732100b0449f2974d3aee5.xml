@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dmn_stage_config">
+    <dmn_stage_config action="INSERT_OR_UPDATE">
+        <field>state</field>
+        <field_value>7</field_value>
+        <image_name>images/demand/skipped.png</image_name>
+        <label>Cancelled</label>
+        <name>defect</name>
+        <order>9</order>
+        <sys_class_name>dmn_stage_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-10-17 15:35:29</sys_created_on>
+        <sys_id>83083bb9c3732100b0449f2974d3aee5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>defect</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>dmn_stage_config_83083bb9c3732100b0449f2974d3aee5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 10:00:34</sys_updated_on>
+        <table>rm_defect</table>
+    </dmn_stage_config>
+</record_update>

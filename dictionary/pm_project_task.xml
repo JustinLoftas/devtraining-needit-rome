@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Project Task" max_length="40" name="pm_project_task" sizeclass="1318" type="collection">
+        <element hint="Rollup dates from Story's Sprint to Agile Phase" label="Rollup dates from stories" max_length="40" name="agile_rollup_dates" type="boolean"/>
+        <element attributes="encode_utf8=false" label="End Sprint" max_length="32" name="end_sprint" reference="rm_sprint" reference_qual="javascript:GetSprintforTeam()" type="reference"/>
+        <element attributes="encode_utf8=false" label="Team" max_length="32" name="scrum_team" reference="scrum_pp_team" reference_qual="releaseISEMPTY^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Start Sprint" max_length="32" name="start_sprint" reference="rm_sprint" reference_qual="javascript:GetSprintforTeam()" type="reference"/>
+    </element>
+</database>

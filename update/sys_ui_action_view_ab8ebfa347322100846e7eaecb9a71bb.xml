@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-09-03 09:30:30</sys_created_on>
+        <sys_id>ab8ebfa347322100846e7eaecb9a71bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Task Board.Project</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_ui_action display_value="Visual Task Board">f31723a347322100846e7eaecb9a718d</sys_ui_action>
+        <sys_ui_view display_value="Project" name="project">3ee9e571870221003706db5eb2e3ecd9</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_ab8ebfa347322100846e7eaecb9a71bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2014-09-03 09:30:30</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>

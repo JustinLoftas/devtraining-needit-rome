@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Demand" max_length="40" name="dmn_demand" sizeclass="112" type="collection">
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" hint="Defect created for this Demand if type is defect" label="Defect" max_length="32" name="defect" read_only="true" reference="rm_defect" type="reference"/>
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" hint="Enhancement created for this Demand if type is Enhancement" label="Enhancement" max_length="32" name="enhancement" read_only="true" reference="rm_enhancement" type="reference"/>
+    </element>
+</database>

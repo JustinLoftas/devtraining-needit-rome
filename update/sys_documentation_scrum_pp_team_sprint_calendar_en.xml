@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sprint_calendar" label="Sprint Calendar" language="en" table="scrum_pp_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sprint_calendar</element>
+            <help/>
+            <hint/>
+            <label>Sprint Calendar</label>
+            <language>en</language>
+            <name>scrum_pp_team</name>
+            <plural>Sprint Calendars</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>justin.loftas@up3.co.uk</sys_created_by>
+            <sys_created_on>2022-01-19 10:40:19</sys_created_on>
+            <sys_id>e223cfc71b0d05105fc2db9cdc4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sprint Calendar</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_scrum_pp_team_sprint_calendar_en</sys_update_name>
+            <sys_updated_by>justin.loftas@up3.co.uk</sys_updated_by>
+            <sys_updated_on>2022-01-19 10:40:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

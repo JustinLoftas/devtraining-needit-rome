@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" extends="rm_feature" label="Story" max_length="40" name="rm_story" sizeclass="19" type="collection">
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" hint="Identifies the demand that this story is associated with" label="Demand" max_length="32" name="demand" read_only="true" reference="dmn_demand" reference_floats="true" type="reference"/>
+        <element attributes="encode_utf8=false" hint="Identifies the project that this story is associated with" label="Project" max_length="32" name="project" reference="pm_project" reference_floats="true" reference_qual="javascript:ScrumSecurityManager.getStoryDotProject(current);" type="reference"/>
+        <element attributes="form_layout_ignore=true,list_layout_ignore=true,no_audit=true" label="Project Index" max_length="40" name="project_index" type="order_index"/>
+        <element attributes="encode_utf8=false" hint="Identifies the project phase that this story is associated with" label="Project phase" max_length="32" name="project_phase" reference="pm_project_task" reference_floats="true" reference_qual="javascript:'sys_class_nameIN'+PPMRoleClassMapper.getClasses('project_task', gs.getUser()) + '^sys_idIN'+ScrumSecurityManager.getStoryDotPhases(current).join(',');" type="reference"/>
+        <element attributes="encode_utf8=false" hint="Identifies the scrum team that this story is associated with" label="Team" max_length="32" name="team" reference="scrum_pp_team" reference_floats="true" reference_qual="javascript:'sys_idIN'+ScrumSecurityManager.getStoryDotTeam(current).join(',')" type="reference"/>
+        <element attributes="form_layout_ignore=true,list_layout_ignore=true,no_audit=true" label="Team Index" max_length="40" name="team_index" type="order_index"/>
+    </element>
+</database>
